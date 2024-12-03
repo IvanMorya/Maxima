@@ -14,7 +14,7 @@ public class Calculator {
         return a * b;
     }
 
-    public double divide(double a, int b) {
+    public double divide(double a, double b) {
         if (b == 0) {
             System.out.println("Ошибка: деление на ноль!");
             return 0;
@@ -28,6 +28,6 @@ public class Calculator {
         System.out.println(calculator.add(1, 1));
         System.out.println(calculator.divide(10, 2));
         System.out.println(calculator.divide(10, 0));
-        System.out.println(calculator.divide(5, 2));
+        System.out.println(calculator.divide(5.2, 2.5));
     }
 }
