@@ -4,7 +4,7 @@ public class MultiFunctionDevice implements Printable, Scunnerable {
 
     private String a;
     String b;
-    protected String c;
+    protected String string;
 
     @Override
     public void print(String message) {
