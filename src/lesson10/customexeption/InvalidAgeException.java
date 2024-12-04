@@ -1,4 +1,4 @@
-package lesson10;
+package lesson10.customexeption;
 
 public class InvalidAgeException extends Exception {
 

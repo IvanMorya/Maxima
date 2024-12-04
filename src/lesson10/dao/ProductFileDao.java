@@ -1,4 +1,4 @@
-package lesson10;
+package lesson10.dao;
 
 import java.io.*;
 import java.util.ArrayList;

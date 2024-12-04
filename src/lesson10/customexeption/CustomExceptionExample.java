@@ -1,4 +1,4 @@
-package lesson10;
+package lesson10.customexeption;
 
 public class CustomExceptionExample {
     public static void checkAge(int age) throws InvalidAgeException {

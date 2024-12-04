@@ -1,4 +1,4 @@
-package lesson10;
+package lesson10.dao;
 
 class Product {
     private int id;
