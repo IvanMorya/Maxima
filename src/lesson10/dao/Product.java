@@ -1,6 +1,6 @@
 package lesson10.dao;
 
-class Product {
+public class Product {
     private int id;
     private String name;
     private double price;
