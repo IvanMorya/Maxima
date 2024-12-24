@@ -1,0 +1,13 @@
+package lesson15;
+
+public class MyThread extends Thread {
+    @Override
+    public void run() {
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        System.out.println("Выполняется поток: " + Thread.currentThread().getName());
+    }
+}
